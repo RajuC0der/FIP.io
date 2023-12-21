@@ -1,0 +1,112 @@
+@import url("https://fonts.googleapis.com/css2?family=Robot&display=swap");
+ body {
+        background-color:yellow;
+        font-family: Arial, sans-serif;
+    }
+    h1 {
+        border-radius: 5px ;
+        background-color: brown;
+        border: 1px solid black;
+        display:block;
+        color: #2df00a;
+        text-align: center;
+        margin-top: 20px;
+        box-shadow: 20px rgba(0, 0, 0, 0.5);
+    }
+    img {
+        border: 5px solid black;
+        border-radius: 50%;
+        display: block;
+        margin: 20px auto;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    }
+    h2{
+        background-color: palevioletred;
+        border: 1px solid blueviolet;
+        font-family: 'Courier New', Courier, monospace;
+        border-collapse: collapse;
+        padding: 0.5rem;
+    } 
+    table{background-color: blue;
+        border: 1px solid blueviolet;
+        font-family: 'Courier New', Courier, monospace;
+        border-collapse: collapse;
+        padding: 0.5rem;}
+
+        tr{background-color: red;
+        border: 1px solid blueviolet;
+        font-family: 'Courier New', Courier, monospace;
+        border-collapse: collapse;
+        padding: 0.5rem;}
+
+        td{
+            background-color: white;
+        border: 1px solid blueviolet;
+        font-family: 'Courier New', Courier, monospace;
+        border-collapse: collapse;
+        padding: 0.5rem;
+        }
+        caption{
+            background-color: rgb(255, 0, 149);
+        border: 1px solid blueviolet;
+        font-family: 'Courier New', Courier, monospace;
+        border-collapse: collapse;
+        padding: 0.5rem;
+        }
+        h3{
+            background-color: palevioletred;
+            border: 1px solid black;
+            font-family: 'Courier New', Courier, monospace;
+        border-collapse: collapse;
+        padding: 1rem;
+        }
+    /* Flexbox properties */
+    #menu {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 1rem;
+    }
+    table {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        border-color: yellowgreen;
+        box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    }
+    tr {
+        display: flex;
+        justify-content: space-between;
+    }
+    th {
+        flex-basis: 25%;
+        text-align: center;
+    }
+    td {
+        flex-basis: 25%;
+        text-align: center;
+    }
+
+     /* Additional content styles */
+    a {
+        color: black;
+        text-decoration: none;
+    }
+
+    footer {
+        text-align: center;
+        margin-top: 20px;
+    }
+
+    button {
+        background-color: palevioletred;
+        color: #fff;
+        border: none;
+        padding: 10px 20px;
+        cursor: pointer;
+    } 
+    .top{
+        display: flex;
+        gap: 10px;
+    }
